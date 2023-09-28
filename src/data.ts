@@ -1,5 +1,5 @@
 type DataType = {
-  id: number,
+  id: number
   title: string
 }
 

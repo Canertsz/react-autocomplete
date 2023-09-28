@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
-import data from "./data.js"
+import data from "./data.ts"
 
 type SearchResult = {
   id: number
@@ -39,7 +39,7 @@ function App(): JSX.Element {
 
   return (
     <>
-      <div className="w-[500px] my-5 mx-auto relative" ref={searchRef}>
+      <div className="w-[500px] my-5 mt-72 mx-auto relative" ref={searchRef}>
         <input
           className={`w-full h-10 ${
             isTyping ? "rounded-t-md" : "rounded-md"
